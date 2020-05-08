@@ -286,6 +286,9 @@ footer p {
     margin: auto 0;
     margin-left: 3.5rem;
   }
+  .card {
+    margin-bottom: 20px;
+  }
   footer h1 {
     font-size: 2.5rem;
     margin: 30px 0;
