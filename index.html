@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Powell Responsive Challenge</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Righteous&display=swap" rel="stylesheet"> 
+  </head>
+  <header>
+    <div class="container row">
+      <button class="nav-toggle" aria-label="open navigation">
+        <span class="hamburger"></span>
+      </button>
+      <a class="logo" href="#">
+        <img src="./img/logo.svg" alt="" />
+      </a>
+      <nav class="nav">
+        <ul class="nav__list nav__list--primary">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+        <ul class="nav__list nav__list--secondary">
+          <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--button">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <body>
+    <section class="heroPage">
+      <div class="container row">
+        <h1>
+          Responsive layouts
+          <span class="hero--coloured">don't have to be a stuggle</span>
+        </h1>
+        <div class="hero__description">
+          <h4 class="hero__description__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+            tempora voluptas laboriosam cupiditate dolorem id explicabo,
+            possimus natus. Temporibus, veritatis.
+          </h4>
+          <a href="" class="hero__description__button">I want to learn</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="container row">
+        <div class="about__card col">
+          <h1>Mobile-first</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            alias ratione velit, distinctio minima voluptas pariatur et illo
+            exercitationem suscipit similique a animi, ad illum.
+          </p>
+        </div>
+        <div class="about__card col">
+          <h1>Efficient</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            alias ratione velit, distinctio minima voluptas pariatur et illo
+            exercitationem suscipit similique a animi, ad illum.
+          </p>
+        </div>
+        <div class="about__card col">
+          <h1>Done Right</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            alias ratione velit, distinctio minima voluptas pariatur et illo
+            exercitationem suscipit similique a animi, ad illum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <main class="content">
+      <div class="container row">
+        <div class="content__left">
+          <h1>It doesn't have to be so hard</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nihil
+            necessitatibus sint asperiores vel amet delectus, commodi architecto
+            cum eaque dolorum, excepturi, eligendi animi obcaecati consectetur
+            suscipit? Quod, ex. Vitae quam qui mollitia, ab autem iure, debitis
+            sapiente ducimus dolores et accusamus prov.
+          </p>
+          <img src="./img/the-image.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nihil
+            necessitatsint ases vel as animi obcaecati sectetur suscipit? Quod,
+            ex.tae quam qui molitia, ab autem iure, debitis sapiente ducimus
+            dolores et accusamus prov. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Modi, iste?
+          </p>
+        </div>
+        <div class="content__cards">
+          <div class="card">
+            <h1>Break it down</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus aperiam quae laborum. Unde necessitatibus ratione illo
+              quas nesciunt consequuntur magnam.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Work your way up</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus aperiam quae laborum. Unde necessitatibus ratione illo
+              quas nesciunt consequuntur magnam.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Break it down</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus aperiam quae laborum. Unde necessitatibus ratione illo
+              quas nesciunt consequuntur magnam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <h1>Just scratching the surface</h1>
+        <div class="footer row">
+          <div class="col">
+            <h2>About our company</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+              voluptate soluta, quaerat reiciendis quod ab nihil, assumenda quam
+              sapiente temporibus quae.
+            </p>
+          </div>
+          <div class="col">
+              <h2>Getting around</h2>
+              <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Contact</li>
+              </ul>
+          </div>
+          <div class="col">
+            <h2>Other things</h2>
+            <ul>
+                <li>Lorem Ipsum</li>
+                <li>Dolor</li>
+                <li>Sit Amet</li>
+                <li>consectetur</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h2>And more</h2>
+            <ul>
+                <li>Lorem Ipsum</li>
+                <li>Dolor</li>
+                <li>Sit Amet</li>
+                <li>consectetur</li>
+            </u
+        </div>
+      </div>
+    </footer>
+    <script>
+        const navToggle = document.querySelector(".nav-toggle");
+        const nav = document.querySelector(".nav");
+        navToggle.addEventListener("click",()=>{
+            nav.classList.toggle("nav--visible")
+            navToggle.classList.toggle("open-burger")
+        })
+    </script>
+  </body>
+</html>
